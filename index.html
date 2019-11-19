@@ -8,34 +8,78 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Syle Override CSS -->
+    <link rel="stylesheet" href="assets/css/override.css">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <div class="container">
+        <!-- top row that stacks -->
+        <div class="row">
+            <!-- stackable nameplate -->
+            <div class="col-md-6 col-sm-12 justify-content-center">
+                <!-- <header> -->
+                <div class="justify-content-center">
+                    <h2 id="nameplate">Garrett Howard</h2>
+                </div>
+                <!-- </header> -->
+            </div>
+            <!-- stackable nav bar -->
+            <div class="col-md-6 col-sm-12">
+                <nav class="navbar navbar-expand navbar-light justify-content-center">
+                    <div class="" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
         </div>
-    </nav>
-
-
+        <!-- master row for "about me" heading and photo/paragraph -->
+        <div class="row">
+            <!-- master column for "about me" heading and photo/paragraph  -->
+            <div class="col-md-12">
+                <!-- sub row for about me header -->
+                <div class="row">
+                    <h2>About Me</h2>
+                </div>
+                <!-- sub row for photo/paragraph -->
+                <div class="row">
+                    <div class="clearfix">
+                        <img class="float-left" src="http://placehold.it/200x100" alt="">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim voluptate omnis
+                            minima est
+                            veritatis tempore repellat illo porro et, pariatur praesentium ad, aliquam eum deleniti
+                            dignissimos, sunt itaque quasi corporis. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis quia accusamus suscipit nihil alias. Dignissimos unde maiores repudiandae,
+                            voluptas, facilis, optio magni numquam autem aperiam vitae temporibus tempore. A, voluptas!
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum magni aut odio, fugit
+                            nostrum a beatae esse maiores aperiam error quibusdam? Iste commodi voluptate incidunt
+                            possimus vitae quia repudiandae reiciendis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>
