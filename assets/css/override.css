@@ -1,5 +1,13 @@
+body{
+    background-image: url("../images/herringbone.png");
+}
+
 #nameplate{
     width: fit-content !important;
     padding: 0 !important; 
     margin: 0 !important;
+}
+
+.main-section{
+    background-color: white;
 }
