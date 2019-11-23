@@ -5,16 +5,33 @@ body{
 .wrap{
     width: 100%;
     background-color: white;
+    border-bottom: #cccccc 2px;
+    border-style: solid;
+    margin-bottom: 75px;
 }
+
 #nameplate{
-    /* width: fit-content !important;
-    padding: 0 !important; 
-    margin-right: 0 !important; */
     height: 70px;
-    /* max-width: 300px; */
+    padding-top: 12px;
     background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+li{
+    float: left;
+    border-right: 1px solid #dddddd;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.aboutMe{
+    transform: rotate(90deg);
 }
 
 .main-section{
     background-color: white;
+    padding: 30px;
 }
