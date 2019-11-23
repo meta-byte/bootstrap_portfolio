@@ -52,28 +52,57 @@ li:last-child {
 .main-section{
     background-color: white;
     padding: 30px;
-    color: #777777
+    color: #777777;
 }
 
 #formSubmit{
     background-color: #4aaaa5;
     border-color: #4aaaa5
 }
-.portfolioImages{
-    margin:;
+.cards{
+    margin-bottom: 30px;
+}
+
+.portfolioCard{
+    padding: 0;
+    margin-bottom: 30px;
 }
 
 .placeholderLinks{
-    width: 280px;
-    height: 40px;
-    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    margin-top: 45%;
     background-color: #4aaaa5;
     color: white;
-    padding-top: 10px;
-    position: absolute;
-    margin-top: 140px;
+    width: 100%;
+    padding:5px;
 }
-a:link {
+a:link{
     padding-top: 0px;
-    padding-bottom: 0px
+    padding-bottom: 0px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+.footerWrap{
+
+}
+.footer{
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: #666666;
+    border-top: 10px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+    margin-bottom: -80px;
+    margin-top: 300px;
 }
